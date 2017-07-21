@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        html, body{
+            height: 100%;
+        } 
+    </style>
+
+    <grid-layout rows="50,*,auto,30" columns="200,50,20,30">
+        <div style='background:red;' row="0" col="0">
+            <button>hello world</button>
+        </div>
+        <div style='background:green;' row="1" col="1">
+            <button>hello world</button>            
+        </div>
+        <div style='background:blue;' row="2" col="2">
+            <button>hello world</button>            
+        </div>
+        <div style='background:orange;' row="3" col="3">
+            <button>hello world</button>            
+        </div>
+    </grid-layout>
+
+    <script src="./app.js"></script>
+</body>
+</html>

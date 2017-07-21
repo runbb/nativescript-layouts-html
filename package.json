@@ -1,0 +1,20 @@
+{
+  "name": "nativescript-layout",
+  "version": "1.0.0",
+  "description": "nativescript layouts for html5 custom elements",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "custom",
+    "element",
+    "elements",
+    "html",
+    "nativescript",
+    "layouts",
+    "javascript"
+  ],
+  "author": "xlmnxp",
+  "license": "MIT"
+}
