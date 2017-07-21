@@ -76,5 +76,4 @@ class GridLayout extends HTMLElement {
         }
     }
 }
-customElements.define("view-element", view);
 customElements.define("grid-layout", GridLayout);
